@@ -86,6 +86,12 @@ ul {
   text-transform: capitalize;
   text-align: center;
   cursor: pointer;
+  margin: auto;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px #00000026;
 }
 .button:hover {
   background-color: #404bbf;
@@ -222,12 +228,4 @@ img {
 .solution-title {
   max-width: 496px;
   padding-bottom: 48px;
-}
-.button {
-  margin: auto;
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px #00000026;
 }
