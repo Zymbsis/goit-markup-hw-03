@@ -135,7 +135,7 @@ img {
 .button:focus {
   background-color: #404bbf;
 }
-.section-features {
+.features {
   padding: 120px 0;
 }
 .visually-hidden {
@@ -149,14 +149,14 @@ img {
   clip: rect(0 0 0 0);
   white-space: nowrap;
 }
-.section-features-list {
+.features-list {
   display: flex;
   gap: 24px;
 }
 .features-item {
   width: calc((100%-72px) / 4);
 }
-.section-features-header {
+.features-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -164,7 +164,7 @@ img {
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
-.section-features-content {
+.features-content {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
