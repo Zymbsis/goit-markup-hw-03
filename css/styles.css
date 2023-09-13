@@ -1,9 +1,9 @@
 body {
-  font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
-
   background-color: #ffffff;
   color: #434455;
+  max-width: 1440px;
+  margin: auto;
 }
 a {
   text-decoration: none;
@@ -11,8 +11,20 @@ a {
 li {
   list-style: none;
 }
-
-.logo-link {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 auto;
+}
+ul {
+  margin: 0 auto;
+  padding-left: 0;
+}
+.header-logo-link {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -89,9 +101,7 @@ li {
   letter-spacing: 0.02em;
 }
 .section-features-items-content {
-  color: #434455;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -116,9 +126,7 @@ li {
   letter-spacing: 0.02em;
 }
 .our-team-list-content {
-  color: #434455;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -143,9 +151,7 @@ li {
   letter-spacing: 0.02em;
 }
 .section-portfolio-content {
-  color: #434455;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -161,4 +167,67 @@ li {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.footer-logo-link {
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+}
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+.header-logo-link {
+  margin-right: 76px;
+  padding: 25.5px 0;
+}
+.header-list {
+  display: flex;
+  gap: 40px;
+  margin-right: 332px;
+}
+.header-link {
+  padding: 24px 0;
+}
+.address-content {
+  padding: 24px 0;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
+}
+.section-solutions {
+  padding: 188px 0;
+}
+.solution-title {
+  max-width: 496px;
+  padding-bottom: 48px;
+}
+.button {
+  margin: auto;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px #00000026;
 }
