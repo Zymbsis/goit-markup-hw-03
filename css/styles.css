@@ -97,11 +97,11 @@ img {
 .address-link:focus {
   color: #404bbf;
 }
-.section-solutions {
+.solutions {
   background-color: #2e2f42;
   padding: 188px 0;
 }
-.solution-title {
+.main-header {
   color: #ffffff;
   font-size: 56px;
   font-weight: 700;
@@ -139,7 +139,15 @@ img {
   padding: 120px 0;
 }
 .visually-hidden {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
 }
 .section-features-list {
   display: flex;
@@ -187,7 +195,7 @@ img {
     0px 1px 6px 0px #2e2f4214;
 }
 .employee {
-  margin: 32px 0;
+  padding: 32px 0;
 }
 .our-team-title {
   color: #2e2f42;
@@ -226,10 +234,10 @@ img {
 }
 .portfolio-item {
   width: calc((100% - 48px) / 3);
-  border: 1px solid #e7e9fc;
 }
 .app {
   padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 .portfolio-title {
   color: #2e2f42;
@@ -263,7 +271,7 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  margin-bottom: 17.5px;
+  margin-bottom: 16px;
 }
 .footer-content {
   color: #f4f4fd;
