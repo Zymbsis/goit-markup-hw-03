@@ -139,7 +139,7 @@ img {
   padding: 120px 0;
 }
 .visually-hidden {
-  visibility: hidden;
+  display: none;
 }
 .section-features-list {
   display: flex;
@@ -161,10 +161,11 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.section-team {
+.our-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
-.section-team-title {
+.our-team-header {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
@@ -172,22 +173,37 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px;
 }
-.our-team-list-title {
+.our-team-list {
+  display: flex;
+  gap: 24px;
+}
+.our-team-item {
+  background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229,
+    0px 1px 6px 0px #2e2f4214;
+}
+.employee {
+  margin: 32px 0;
+}
+.our-team-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
 }
-.our-team-list-content {
+.our-team-content {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
-}
-.our-team-list-items {
-  background-color: #ffffff;
 }
 .section-portfolio-main-title {
   color: #2e2f42;
