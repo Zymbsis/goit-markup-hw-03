@@ -2,8 +2,6 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
   color: #434455;
-  max-width: 1440px;
-  margin: auto;
 }
 a {
   text-decoration: none;
@@ -61,7 +59,6 @@ img {
 .header-list {
   display: flex;
   gap: 40px;
-  margin-right: 332px;
 }
 .header-link {
   font-weight: 500;
@@ -77,8 +74,12 @@ img {
 .header-link:focus {
   color: #404bbf;
 }
+.contacts {
+  text-shadow: 0px 4px 4px #00000040;
+}
 .address-content {
   padding: 24px 0;
+  margin-left: auto;
 }
 .address-list {
   font-style: normal;
@@ -109,7 +110,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   max-width: 496px;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 .button {
   background-color: #4d5ae5;
@@ -155,7 +156,7 @@ img {
   gap: 24px;
 }
 .features-item {
-  width: calc((100%-72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .features-title {
   color: #2e2f42;
@@ -190,7 +191,7 @@ img {
 }
 .our-team-item {
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229,
     0px 1px 6px 0px #2e2f4214;
@@ -234,7 +235,7 @@ img {
   row-gap: 48px;
 }
 .portfolio-item {
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 2 * 24px) / 3);
 }
 .app {
   padding: 32px 16px;
